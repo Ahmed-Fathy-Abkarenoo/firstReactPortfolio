@@ -8,7 +8,7 @@ export default function About() {
           <h2 className="text-5xl font-bold mb-8">ABOUT</h2>
           <HeaderStyle
             textColorClass={"text-white"}
-            bgColorClassBefore={"bg-white"}
+            bgColorClassBefore={"before:bg-white"}
             bgColorClassAfter={"after:bg-white"}
           />
           <div className="content w-3/4 md:w-2/3 grid grid-cols-1 gap-12 md:grid-cols-2 md:gap-12 mt-12 text-left">

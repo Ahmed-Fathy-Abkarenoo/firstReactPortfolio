@@ -18,7 +18,7 @@ export default function Modal({ image, title, closeModal }) {
             <h3 className="text-5xl font-bold text-black mb-5">{title}</h3>
             <HeaderStyle
               textColorClass={"text-black"}
-              bgColorClassBefore={"bg-black"}
+              bgColorClassBefore={"before:bg-black"}
               bgColorClassAfter={"after:bg-black"}
             />
             <div className="img-frame mt-12 mb-16">

@@ -9,7 +9,7 @@ export default function Contact() {
           <h2 className="text-5xl font-bold mb-8 text-black">CONTACT ME</h2>
           <HeaderStyle
             textColorClass={"text-black"}
-            bgColorClassBefore={"bg-black"}
+            bgColorClassBefore={"before:bg-black"}
             bgColorClassAfter={"after:bg-black"}
           />
           <div className="row text-center w-3/5 mt-11">

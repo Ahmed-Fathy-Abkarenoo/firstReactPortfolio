@@ -10,7 +10,7 @@ export default function Home() {
           <h1 className="text-6xl font-bold my-8 text-center">START REACT</h1>
           <HeaderStyle
             textColorClass={"text-white"}
-            bgColorClassBefore={"bg-white"}
+            bgColorClassBefore={"before:bg-white"}
             bgColorClassAfter={"after:bg-white"}
           />
           <p className="mt-8 mb-5 text-sm md:text-xl md:font-medium">

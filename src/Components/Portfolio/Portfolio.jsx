@@ -40,7 +40,7 @@ export default function Portfolio() {
           <h2 className="text-gray-900 text-5xl font-bold mb-8">Portfolio</h2>
           <HeaderStyle
             textColorClass={"text-black"}
-            bgColorClassBefore={"bg-black"}
+            bgColorClassBefore={"before:bg-black"}
             bgColorClassAfter={"after:bg-black"}
           />
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 mt-10 pb-10">
