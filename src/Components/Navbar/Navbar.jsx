@@ -4,7 +4,6 @@ import {
   DisclosurePanel,
 } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import { NavLink, Link } from "react-router-dom";
 
 const navigation = [
   { name: "PORTFOLIO", href: "#", current: true },
@@ -40,9 +39,9 @@ export default function Example() {
               </div>
               <div className="flex flex-1 items-center justify-between lg:items-stretch lg:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                  <Link className="text-2xl font-bold" to="/">
+                  <a className="text-2xl font-bold" href="#">
                     START REACT
-                  </Link>
+                  </a>
                 </div>
                 <div className="hidden lg:ml-auto lg:block">
                   <div className="flex">

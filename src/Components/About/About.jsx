@@ -3,7 +3,7 @@ import HeaderStyle from "../HeaderStyle/HeaderStyle";
 export default function About() {
   return (
     <>
-      <section className="about-section bg-[#19BC9B] py-20 my-32" id="about">
+      <section className="about-section bg-[#19BC9B] py-20 my-32">
         <div className="container mx-auto grid grid-cols-1 justify-items-center">
           <h2 className="text-5xl font-bold mb-8">ABOUT</h2>
           <HeaderStyle
